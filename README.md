@@ -1,10 +1,10 @@
-- user can choose the theme color by click the button that has this color
-- the page will chick for color an localStorge first if
-  - exist it will use it as the main theme.
-    - makes the button that has the same color the only active button.
-  - not exist it will use the default value which the red value
-    - the red button will be the only active button.
-- when user click any other button to change the theme color
-  - it will use that color as the main theme color.
-  - makes that button the only active button.
-  - stores that color in localStorge so we can use it when user reload the page or next time user visit the website.
+- User can choose the theme color by click the button that has this color
+- The page will check for color an localStorge first if
+  - Exist it will use it as the main theme.
+    - Makes the button that has the same color the only active button.
+  - Not exist it will use the default value which the red value
+    - The red button (Which is the default) will be the only active button.
+- When user click any other button to change the theme color
+  - It will use that color as the main theme color.
+  - Makes that button the only active button.
+  - Stores that color in localStorge so we can use it when user reload the page or next time user visit the website.
